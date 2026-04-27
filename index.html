@@ -4,9 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RiverX App</title>
+    <style>
+      body, html {
+        margin: 0; padding: 0; height: 100%;
+        font-family: system-ui, sans-serif;
+        background: #f9fafb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #374151;
+      }
+      #root {
+        width: 100%;
+        max-width: 640px;
+        padding: 2rem;
+        box-sizing: border-box;
+        background: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <h1>Welcome to Runtime Lab</h1>
+      <p>Your fast React single-page product experience.</p>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
